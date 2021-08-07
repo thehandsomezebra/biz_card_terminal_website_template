@@ -1,0 +1,23 @@
+body {
+    background-color: #000000;
+    padding: 1%;
+    color: #ccc;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+a {
+    color: #00FF00;
+    text-decoration: underline;
+}
+a:hover {
+    color: #FF0000;
+    text-decoration: underline;
+}
+.console {
+    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+    color: #00FF00;
+}
+input[type="button"] {
+    cursor: pointer;
+}
+
