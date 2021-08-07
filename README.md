@@ -10,4 +10,4 @@ Just grab the files in the `website` folder, change the text between the `<noscr
 - `style.css`
 
 
- ![screenshot of website](screenshot.webm)
+ ![screenshot of website](screenshot.gif)
