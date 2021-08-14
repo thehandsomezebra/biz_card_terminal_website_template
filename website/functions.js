@@ -14,17 +14,6 @@ function type(text, new_caption_length) {
     }
 }
 
-function erase() {
-    caption = $('#caption').html();
-    captionLength = caption.length;
-    if(captionLength > 0){
-        $('#caption').html(caption.substr(0, captionLength-1));
-        setTimeout(function(){
-            erase();
-        }, 1);
-    }
-}
-
 function cursorAnimation() {
     $('#cursor').animate({
         opacity: 0
