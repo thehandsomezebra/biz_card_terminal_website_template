@@ -1,6 +1,8 @@
 $(document).ready(function() {
     setInterval ('cursorAnimation()', 600);
-    type(document.getElementsByTagName("noscript")[0].innerHTML);
+      document.getElementById("innertext").hidden=true
+    type(document.getElementById("innertext").innerHTML);
+
 });
 
 function type(text, new_caption_length) {
